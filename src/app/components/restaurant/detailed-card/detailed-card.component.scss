@@ -1,0 +1,68 @@
+
+.star {
+    position: relative;
+    display: inline-block;
+    font-size: 3.8rem;
+    color: #d3d3d3;
+    line-height: 30px;
+  }
+  .full {
+    color: #00AA6C;
+  }
+  .half {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 30px;
+    color: #00AA6C;
+  }
+  .ngb-rating-height{
+    align-items: center;
+    justify-content: center;
+    max-height: 20px;
+    padding-top: 1px;
+  }
+
+  .btnOrderOnline {
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    padding-inline: 10px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 1013px) {
+    .img{
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .img{
+      max-height: 200px;
+      background-size: contain;
+    }
+  }
+
+  body,
+  html { overflow-x: hidden; }
+  .animated-text-container {
+
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .animated-text-content {
+    display: block; /* Important to give the content a width */
+
+    width: 100%;
+    transform: translateX(90%); /* Animation start out of the screen */
+
+    /* Add the animation */
+    animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+  }
+
+  /* Create the animation */
+  @keyframes move {
+    to { transform: translateX(-100%); }
+  }

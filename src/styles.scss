@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+@import "./assets/css/style.scss";
+
+
+
+// body {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
+
+/* Importing Bootstrap SCSS file. */
+
+// @import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+
+// MDB SCSS
+.carousel-res .owl-prev,
+.owl-next {
+  position: absolute !important;
+  top: 35% !important;
+  transform: translateY(-50%) !important;
+}
+
+.carousel-res .owl-prev {
+  left: 0rem !important;
+  color: lightgray !important;
+}
+
+.carousel-res .owl-next {
+  right: 0rem !important;
+  color: lightgray !important;
+
+}
+
+.carousel-res .owl-carousel .owl-stage {
+  display: flex !important;
+}
+
+.carousel-res .owl-carousel .owl-item img {
+  height: 130px !important;
+}
+
+
+//horizontal animation
+
+// * { box-sizing: border-box;  }
+
+
+

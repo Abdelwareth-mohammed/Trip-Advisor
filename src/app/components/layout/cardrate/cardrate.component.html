@@ -1,0 +1,14 @@
+<div class="rate">
+  <div class="rate-child">
+
+    <!-- <ng-template #t let-fill="fill">
+    <span class="star" [class.full]="fill === 100">
+      <span class="half" [style.width.%]="fill">&bullet;</span>&bullet;
+    </span>
+    </ng-template> -->
+
+    <ngb-rating class="ngb-rating-height" [(rate)]="rate"  [readonly]="true" [max]="5">
+    </ngb-rating>
+    <span class="rate-span"> {{rate}}</span>
+  </div>
+</div>
